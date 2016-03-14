@@ -1,0 +1,145 @@
+
+#MainContent {
+	padding-top:54px;
+	overflow: hidden;
+}
+
+.img-caption-bottom{
+	display:inline-block;
+	vertical-align:bottom;
+}
+
+.img-caption-middle{
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.bg-blue {
+	background-color:#1E89C3;
+}
+.bg-blue-light{
+	background-color:#68B2DA;
+}
+.bg-blue-dark {
+	background-color:#055580;
+}
+
+.bg-green {
+	background-color: #00BF59;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+.p-b-7 {
+	padding-bottom: 7rem !important;
+}
+
+.tile-body-fixed-lg {
+    height: 380px;
+}
+
+.tile-body-fixed-lg {
+    height: 380px;
+}
+a.text-white:hover,
+a.text-white:focus{
+	color:white;
+}
+
+.nav-link-white:not(.active){
+    color: #FFFFFF;
+}
+
+.nav-link-blue:not(.active){
+	color: #1E89C3;
+}
+
+.nav-tabs .nav-link.nav-link-blue.active{
+	color: #FFFFFF;
+	background-color: #1E89C3;
+	border-color: #1E89C3 #1E89C3 transparent;
+}
+
+.scroll-detect{
+   opacity: 0;
+   transition: opacity .5s ease-in-out;
+   -ms-transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+   -o-transition: opacity .5s ease-in-out;
+}
+
+.scroll-detect.visible{
+    opacity:1;
+}
+
+@media (min-width: 48em) {
+	.bubble-right{
+		border-right: 2px solid #ABB7B7;
+		margin-left: 2px;
+	}
+
+	.bubble-right::before,
+	.bubble-right::after,
+	.bubble-left::before,
+	.bubble-left::after {
+		position: absolute;
+		content: '';
+		pointer-events: none;
+	}
+
+	.bubble-right{
+		padding-right: 30px;
+		position: relative;
+	}
+
+	.bubble-right::before{
+		right: -31px;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+	}
+
+	.bubble-right::before {
+		top: 50%;
+		background: #C0392B;
+	}
+
+	.bubble-left{
+		border-left: 2px solid #ABB7B7;
+		padding-right: 2px;
+	}
+
+
+	.bubble-left{
+		padding-left: 30px;
+		position: relative;
+	}
+
+	.bubble-left::before{
+		left: -31px;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+	}
+
+	.bubble-left::before {
+		top: 50%;
+		background: #C0392B;
+	}
+}
+
+#UsagePreview{
+	margin:auto;
+}
+
